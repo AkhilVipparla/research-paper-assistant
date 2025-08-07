@@ -4,7 +4,7 @@ import faiss
 import numpy as np
 from PyPDF2 import PdfReader
 
-genai.configure(api_key="AIzaSyCh2lIDbk-2VE-dz0f0IsWk8mzBQP5jpnw")
+genai.configure(api_key="API_KEY")
 llm_model = genai.GenerativeModel("gemini-1.5-pro")
 embedding_model = "models/embedding-001"
 
